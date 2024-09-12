@@ -3,7 +3,7 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 
-from qt_material import apply_stylesheet
+#from qt_material import apply_stylesheet
 
 from ui.Ui_my_main_window import Ui_MainWindow
 
@@ -32,7 +32,7 @@ if __name__ == '__main__':
     window = MainWindow()
     # setup stylesheet
     # apply_stylesheet(app, theme='dark_teal.xml')
-    apply_stylesheet(app, theme='dark_cyan.xml')
+    #apply_stylesheet(app, theme='dark_cyan.xml')
     window.show()
     sys.exit(app.exec_())
 
